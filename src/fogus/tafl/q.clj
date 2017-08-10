@@ -1,4 +1,4 @@
-(ns fogus.svedn.q
+(ns fogus.tafl.q
   (:require clojure.set))
 
 (defn has-multiple [key table]
