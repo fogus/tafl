@@ -1,0 +1,24 @@
+* Tafl
+
+/Tafl is a library to deal with and query "table-like" structures./
+
+** Goals
+
+- CLJS support
+- Define, table-like
+- Datalog-queries
+
+** References / Influences
+
+- TODO
+
+** Tasks
+
+*** TODO Explore Datascript
+
+
+
+
+
+
+
