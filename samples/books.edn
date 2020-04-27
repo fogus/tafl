@@ -1,113 +1,112 @@
 #{{:book/author #{"Haruki Murakami"},
-   :book/genre :book.genre/fiction,
+   :book/genre [:genre/fiction]
    :book/title "After Dark",
    :personal/rating 9.1}
   {:personal/genre :genre/found-drama,
    :book/author #{"John Crowley"},
-   :book/genre :book.genre/fiction,
+   :book/genre [:genre/fiction],
    :book/title "Ægypt",
    :personal/rating 9.5}
   {:book/author #{"Kazuo Ishiguro"},
-   :book/genre :book.genre/fiction.philosophy,
+   :book/genre [:genre/fiction :genre/philosophy]
    :book/title "The Remains of the Day",
    :personal/rating 9.8}
   {:book/author #{"James Joyce"},
-   :book/genre :book.genre/fiction,
+   :book/genre [:genre/fiction],
    :book/title "Ulysses",
    :personal/rating 9.1}
   {:book/author #{"Warren Ellis"},
-   :book/genre :book.genre/fiction.graphic-novel,
+   :book/genre [:genre/fiction :genre/graphic-novel],
    :book/title "Transmetropolitan",
    :personal/rating 9.5}
   {:book/author #{"Robert Coover"},
-   :book/genre :book.genre/fiction,
+   :book/genre [:genre/fiction :genre/sports],
    :book/title
    "The Universal Baseball Association, Inc., J. Henry Waugh, Prop.",
    :personal/rating 9.4}
   {:book/author #{"Chinua Achebe"},
-   :book/genre :book.genre/fiction.philosophy,
+   :book/genre [:genre/fiction :genre/philosophy],
    :book/title "Things Fall Apart",
    :personal/rating 9.8}
   {:book/author #{"Mark Z. Danielewski"},
-   :book/genre :book.genre/fiction.horror,
+   :book/genre [:genre/fiction, :genre/horror, :genre/found-drama],
    :book/title "House of Leaves",
    :personal/rating 10}
   {:book/author #{"John Gardner"},
-   :book/genre :book.genre/fiction,
+   :book/genre [:genre/fiction],
    :book/title "Grendel",
    :personal/rating 10}
-  {:personal/genre :genre/found-drama,
+  {:book/genre [:genre/fiction, :genre/found-drama],
    :book/author #{"David Foster Wallace"},
-   :book/genre :book.genre/fiction,
    :book/title "Infinite Jest",
    :personal/rating 9.9}
-  {:personal/genre :genre/non-tech-tech,
-   :book/author #{"David S. Goodsell"},
-   :book/genre :book.genre/non-fiction.biology,
+  {:book/author #{"David S. Goodsell"},
+   :book/genre [:genre/non-fiction, :genre/biology, :genre/non-tech-tech],
    :book/title "The Machinery of Life",
    :personal/rating 9.3}
   {:book/author #{"Joseph Heller"},
-   :book/genre :book.genre/fiction.humor,
+   :book/genre [:genre/fiction, :genre/humor],
    :book/title "Catch-22",
    :personal/rating 10}
   {:book/author #{"Jorge Luis Borges"},
-   :book/genre :book.genre/fiction.short-stories,
+   :book/genre [:genre/fiction, :genre/short-stories],
    :book/title "Labyrinths: Selected Stories and Other Writings",
    :personal/rating 9.1}
   {:book/author #{"Oscar Wilde"},
-   :book/genre :book.genre/fiction,
+   :book/genre [:genre/fiction],
    :book/title "The Picture of Dorian Gray",
    :personal/rating 9}
-  {:personal/genre :genre/tech.influential,
+  {:personal/tag [:tag/influential],
    :book/author #{"Leo Brodie"},
-   :book/genre :book.genre/non-fiction.programming,
+   :book/genre [:genre/non-fiction, :genre/programming],
    :book/title "Thinking Forth",
    :personal/rating 9}
-  {:book/genre :book.genre/non-fiction.programming,
+  {:book/genre [:genre/non-fiction, :genre/programming],
    :book/title "Commodore 64 User's Guide",
    :personal/rating 9.1}
   {:book/author #{"Jack London"},
-   :book/genre :book.genre/non-fiction.scifi,
+   :book/genre [:genre/fiction, :genre/scifi],
    :book/title "The Jacket",
    :personal/rating 9.2}
   {:book/author #{"Hermann Hesse"},
-   :book/genre :book.genre/fiction.philosophy,
+   :personal/tag [:tag/influential],
+   :book/genre [:genre/fiction :genre/philosophy],
    :book/title "Magister Ludi",
    :personal/rating 10}
   {:personal/genre :genre/non-tech-tech,
    :book/author #{"Tracy Kidder"},
-   :book/genre :book.genre/non-fiction.programming,
+   :book/genre [:genre/non-fiction, :genre/non-tech-tech],
    :book/title "The Soul of a New Machine",
    :personal/rating 9}
-  {:personal/genre :genre/tech.influential,
+  {:personal/tag [:tag/influential],
    :book/author #{"Tom Swan"},
-   :book/genre :book.genre/non-fiction.programming,
+   :book/genre [:genre/non-fiction, :genre/programming],
    :book/title "Programmer's Guide to the 1802",
    :personal/rating 9.3}
-  {:personal/genre :genre/non-tech-tech,
+  {:personal/tag [:tag/influential],
    :book/author #{"Stewart Brand"},
-   :book/genre :book.genre/non-fiction.architecture,
+   :book/genre [:genre/non-fiction, :genre/architecture, :genre/non-tech-tech],
    :book/title "How Buildings Learn: What Happens After They're Built",
    :personal/rating 9.6}
   {:book/author #{"P.G. Wodehouse"},
-   :book/genre :book.genre/fiction.humor,
+   :book/genre [:genre/fiction, :genre/humor],
    :book/title "The Code of the Woosters",
    :personal/rating 9.6}
   {:book/genre :book.genre/non-fiction.folklore,
    :book/title "Funk and Wagnell's Folklore, Mythology, and Legend",
    :personal/rating 9.4}
-  {:personal/genre :genre/found-drama,
-   :book/author #{"W. G. Sebald"},
-   :book/genre :book.genre/fiction,
+  {:book/author #{"W. G. Sebald"},
+   :book/genre [:genre/fiction, :genre/found-drama],
    :book/title "The Rings of Saturn",
    :personal/rating 9.2}
   {:book/author #{"Piers Anthony"},
-   :book/genre :book.genre/non-fiction.scifi,
+   :book/genre [:genre/fiction, :genre/scifi],
    :book/title "Chthon",
    :personal/rating 9.2}
   {:book/author
    #{"John McCarthy" "Timothy P. Hart" "Michael I. Levin"
      "Daniel J. Edwards" "Paul W. Abrahams"},
-   :book/genre :book.genre/non-fiction.programming,
+   :book/genre [:genre/non-fiction, :genre/programming],
+   :personal/tag #{:tag/influential, :tag/foundational},
    :book/title "LISP 1.5 Programmer's Manual",
    :personal/rating 10}}
