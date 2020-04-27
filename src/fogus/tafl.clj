@@ -1,6 +1,11 @@
-(ns fogus.tafl)
+(ns fogus.tafl
+  (:require [clojure.edn :as edn]
+            [clojure.java.io :as io]
+            [datascript.core :as d]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+
+(defn read-table [filename]
+  (edn/read-string
+   (slurp (io/resource filename))))
+
+(read-table "books.edn")
