@@ -8,4 +8,4 @@
   (edn/read-string
    (slurp (io/resource filename))))
 
-(read-table "books.edn")
+
