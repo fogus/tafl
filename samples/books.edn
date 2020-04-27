@@ -92,7 +92,7 @@
    :book/genre [:genre/fiction, :genre/humor],
    :book/title "The Code of the Woosters",
    :personal/rating 9.6}
-  {:book/genre :book.genre/non-fiction.folklore,
+  {:book/genre [:genre/non-fiction, :genre/folklore],
    :book/title "Funk and Wagnell's Folklore, Mythology, and Legend",
    :personal/rating 9.4}
   {:book/author #{"W. G. Sebald"},
