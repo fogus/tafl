@@ -61,6 +61,7 @@
    :personal/rating 9}
   {:book/genre [:genre/non-fiction, :genre/programming],
    :book/title "Commodore 64 User's Guide",
+   :book/author #{"Uncredited"},
    :personal/rating 9.1}
   {:book/author #{"Jack London"},
    :book/genre [:genre/fiction, :genre/scifi],
@@ -91,6 +92,7 @@
    :personal/rating 9.6}
   {:book/genre [:genre/non-fiction, :genre/folklore],
    :book/title "Funk and Wagnell's Folklore, Mythology, and Legend",
+   :book/author #{"Funk and Wagnell"},
    :personal/rating 9.4}
   {:book/author #{"W. G. Sebald"},
    :book/genre [:genre/fiction, :genre/found-drama],

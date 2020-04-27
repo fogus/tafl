@@ -6,4 +6,5 @@
 
 (deftest test-sample-data-conformance
   (testing "that the sample data adheres to the format that the tests expect."
-    (tafl/read-table "books.edn")))
+    (let [data (tafl/read-table "books.edn")]
+      (is (s/valid? (s/coll-of :fogus.specs/book) data)))))
