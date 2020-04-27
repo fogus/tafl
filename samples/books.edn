@@ -2,13 +2,12 @@
    :book/genre [:genre/fiction]
    :book/title "After Dark",
    :personal/rating 9.1}
-  {:personal/genre :genre/found-drama,
-   :book/author #{"John Crowley"},
-   :book/genre [:genre/fiction],
+  {:book/author #{"John Crowley"},
+   :book/genre [:genre/fiction, :genre/found-drama],
    :book/title "Ægypt",
    :personal/rating 9.5}
   {:book/author #{"Kazuo Ishiguro"},
-   :book/genre [:genre/fiction :genre/philosophy]
+   :book/genre [:genre/fiction, :genre/philosophy],
    :book/title "The Remains of the Day",
    :personal/rating 9.8}
   {:book/author #{"James Joyce"},
@@ -16,13 +15,12 @@
    :book/title "Ulysses",
    :personal/rating 9.1}
   {:book/author #{"Warren Ellis"},
-   :book/genre [:genre/fiction :genre/graphic-novel],
+   :book/genre [:genre/fiction, :genre/graphic-novel],
    :book/title "Transmetropolitan",
    :personal/rating 9.5}
   {:book/author #{"Robert Coover"},
-   :book/genre [:genre/fiction :genre/sports],
-   :book/title
-   "The Universal Baseball Association, Inc., J. Henry Waugh, Prop.",
+   :book/genre [:genre/fiction, :genre/sports],
+   :book/title "The Universal Baseball Association, Inc., J. Henry Waugh, Prop.",
    :personal/rating 9.4}
   {:book/author #{"Chinua Achebe"},
    :book/genre [:genre/fiction :genre/philosophy],
@@ -73,8 +71,7 @@
    :book/genre [:genre/fiction :genre/philosophy],
    :book/title "Magister Ludi",
    :personal/rating 10}
-  {:personal/genre :genre/non-tech-tech,
-   :book/author #{"Tracy Kidder"},
+  {:book/author #{"Tracy Kidder"},
    :book/genre [:genre/non-fiction, :genre/non-tech-tech],
    :book/title "The Soul of a New Machine",
    :personal/rating 9}
