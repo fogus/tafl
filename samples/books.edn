@@ -106,6 +106,6 @@
   #{"John McCarthy" "Timothy P. Hart" "Michael I. Levin"
     "Daniel J. Edwards" "Paul W. Abrahams"},
   :book/genre [:genre/non-fiction, :genre/programming],
-  :personal/tag #{:tag/influential, :tag/foundational},
+  :personal/tag [:tag/influential, :tag/foundational],
   :book/title "LISP 1.5 Programmer's Manual",
   :personal/rating 10}]
